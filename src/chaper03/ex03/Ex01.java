@@ -33,6 +33,14 @@ public class Ex01 {
 		System.out.println(aName.equals(bName));
 		System.out.println("같다면 true 다르면 false");
 		
+		int data=11;
+		System.out.println(Integer.toBinaryString(data));
+		System.out.println(Integer.toHexString(data));
+		System.out.println(Integer.toOctalString(data));
+		
+		
+		
+		
 		
 	}
 
