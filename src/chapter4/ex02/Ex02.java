@@ -28,7 +28,7 @@ public class Ex02 {
 			break;
 		case 4: case 6: case 9: case 11:
 			System.out.println(month + "월은"+ day +"입니다.");
-			break;	
+			break;
 		default:
 			System.out.println("없는 월입니다. 다시입력해주세요");
 		
