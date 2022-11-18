@@ -21,16 +21,16 @@ public class Ex02 {
 		int [][] arr1=new int [4][100];
 		for(int i=0; i<arr1.length; i++) {
 			if(i==0) {
-				for(int j=0, a=1; j<arr1[i].length; a++) {
-					if(a%2==0) {	
-					arr1[i][j]=a;
+				for(int j=0, k=1; j<arr1[i].length; k++) {
+					if(k%2==0) {	
+					arr1[i][j]=k;
 						j++;
 					}
 				}
 			}else if(i==1) {
-				for(int j=0,a=1; j<arr1[i].length; a++) {
-					if(a%5==0) {
-					arr1[i][j]=a;
+				for(int j=0,k=1; j<arr1[i].length; k++) {
+					if(k%5==0) {
+					arr1[i][j]=k;
 						j++;
 					
 					}
