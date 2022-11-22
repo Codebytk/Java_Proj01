@@ -1,0 +1,29 @@
+package chapter08.ex02;
+
+public class Student { 		//public : 필드, 메소드 앞에 다른 패키지에서 사용하려면
+	
+	//필드 선언
+	public String stuName;
+	public String stuNo;
+	public int stuYear;
+	public String stuaddr;
+	
+	//생성자
+	public Student(){}
+	public Student(String stuName,String stuNo,int stuYear,String stuaddr){
+		this.stuName=stuName;
+		this.stuNo=stuNo;
+		this.stuYear=stuYear;
+		this.stuaddr=stuaddr;
+	}
+	
+	
+	//메소드 선언
+	public void print() {
+		System.out.println("학생이름"+stuName);
+		System.out.println("학번"+stuNo);
+		System.out.println("학년"+stuYear);
+		System.out.println("주소"+stuaddr);
+	}
+
+}
