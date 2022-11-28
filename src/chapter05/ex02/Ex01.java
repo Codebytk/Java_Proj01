@@ -6,20 +6,14 @@ public class Ex01 {
 		// 문제 : arr1 배열 변수에 정수 1000개의 방생성
 		// for 문을 사용해서 각 방에 3의 배수의 값을 저장
 		// for 문을 사용해서 각 방에 내용을 출력
-		
-		
-		int[] arr1=new int[1000];
-		
-		for(int i=0; i<1000; i++) {
-			arr1[i]=(i+1)*3;
-			System.out.print(arr1[i]+" ");
+
+		int[] arr1 = new int[1000];
+
+		for (int i = 0; i < 1000; i++) {
+			arr1[i] = (i + 1) * 3;
+			System.out.print(arr1[i] + " ");
 		}
 		System.out.println();
-		
-		
-		
-		
-		
 
 	}
 
