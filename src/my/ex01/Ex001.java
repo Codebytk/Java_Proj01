@@ -37,7 +37,7 @@ public class Ex001 {
 			}
 		};
 	
-		f1.abc(f2);
+		
 		Scanner sc = new Scanner(System.in);
 		do {
 		System.out.println("과일 종류중 하나를 적어주세요");
@@ -59,6 +59,7 @@ public class Ex001 {
 				System.out.println(aa+"는 사람에게 가치있는 음식입니다.");
 			}
 		};
+		
 		if(aa.equals("종료")) {
 			break;
 		}else {
