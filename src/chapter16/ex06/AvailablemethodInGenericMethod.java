@@ -24,6 +24,11 @@ public class AvailablemethodInGenericMethod {
 		a.<String>method("안녕");
 		a.method("안녕");
 		a.method("하세요");
+		
+		
+		
+		
+		
 
 	}
 

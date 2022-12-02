@@ -10,7 +10,7 @@ class GenericMethods{
 	}
 	
 	//동일한 타입의 두값을 인풋받아서 같으면 true , 다르면 false 를 리턴시켜줌
-	// 제네릭에 넣는 타입변수 T 에 올수 있는 것은 기본 타입은 넣을수 없다. wapper class
+	// 제네릭에 넣는 타입변수 T 에 올수 있는 것은 기본 타입은 넣을수 없다. wrapper class
 	public <T> boolean method2(T t1, T t2) {
 		return t1.equals(t2);
 	}

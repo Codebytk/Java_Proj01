@@ -34,7 +34,7 @@ public class TryWithResource03 {
 			System.out.println("예외가 발생되었습니다.");
 			e.printStackTrace();
 		}finally {
-			
+			//수동으로 resource close
 			if(a1.resource != null) {
 				try {
 					a1.close();

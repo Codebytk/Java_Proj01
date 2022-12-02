@@ -25,7 +25,7 @@ public class ThrowsException02 {
 		try {
 			a1.abc();
 		} catch (InterruptedException e) {
-			
+			e.printStackTrace();
 		}
 
 		

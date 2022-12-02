@@ -20,7 +20,6 @@ public class Account {
 	//출금 : 
 	public void deposit(int money) {	//기존의 잔고에서 money 를 인풋받아서 더해서 다시 필드에 적용
 		balance += money;
-		System.out.println(balance);
 	}
 	
 	// 예외처리 
